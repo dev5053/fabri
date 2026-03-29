@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="absolute top-0 left-0 right-0 z-50 py-6">
       <div className="container flex items-center justify-between">
-        <a href="/" className="font-heading text-2xl font-bold text-primary-foreground">
+        <a href="/" className="font-heading text-3xl md:text-4xl font-bold text-primary-foreground">
           Garment Care Studio
         </a>
         <div className="hidden md:flex items-center gap-8 font-body text-sm text-primary-foreground/80">

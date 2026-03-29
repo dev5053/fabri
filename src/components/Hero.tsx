@@ -30,7 +30,7 @@ const Hero = () => {
             <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-body font-semibold text-base px-8 py-6 rounded-full">
               Schedule Pickup
             </Button>
-            <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-body text-base px-8 py-6 rounded-full">
+            <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-body font-semibold text-base px-8 py-6 rounded-full">
               Our Services
             </Button>
           </div>

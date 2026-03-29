@@ -20,7 +20,7 @@ const Hero = () => {
             Premium Garment Care
           </p>
           <h1 className="text-5xl md:text-7xl font-heading font-bold text-primary-foreground leading-tight">
-            Fresh Clothes, Zero Hassle
+            Dry Cleaning, Stitching & Delivery at Your Doorstep
           </h1>
           <p className="text-primary-foreground/80 font-body text-lg md:text-xl max-w-lg leading-relaxed">
             We offer dry cleaning, saree polishing, fall & pico stitching, and pre-folding — all at honest prices. Same day delivery available. Just book a pickup and we'll handle the rest.

@@ -3,27 +3,33 @@ import { Shirt, Sparkles, Scissors, Clock } from "lucide-react";
 const services = [
   {
     icon: Shirt,
-    title: "Dry Cleaning",
-    description: "Gentle, eco-friendly solvents that preserve fabric quality and color vibrancy.",
-    price: "From $8.99",
+    title: "Fall & Pico",
+    description: "Expert fall and pico work with precision finishing for all fabric types.",
+    price: "₹80",
   },
   {
     icon: Sparkles,
-    title: "Wash & Press",
-    description: "Professional laundering with expert pressing for a crisp, polished look.",
-    price: "From $4.99",
+    title: "Saree Polishing",
+    description: "Restore your saree's original sheen and crispness with professional polishing.",
+    price: "₹60",
   },
   {
     icon: Scissors,
-    title: "Alterations",
-    description: "Precision tailoring and repairs by experienced seamstresses.",
-    price: "From $12.99",
+    title: "Pre-Folding",
+    description: "Neat, crease-free folding to keep your garments ready to wear or store.",
+    price: "₹30",
+  },
+  {
+    icon: Shirt,
+    title: "Dry Cleaning",
+    description: "Gentle, eco-friendly solvents that preserve fabric quality and color vibrancy.",
+    price: "₹80",
   },
   {
     icon: Clock,
-    title: "Same-Day Service",
-    description: "Drop off before 10 AM, pick up by 5 PM. Perfect for last-minute needs.",
-    price: "50% surcharge",
+    title: "Same Day Delivery",
+    description: "Need it fast? Get your garments cleaned and delivered the same day.",
+    price: "50% extra",
   },
 ];
 

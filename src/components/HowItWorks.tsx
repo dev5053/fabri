@@ -1,7 +1,7 @@
 const steps = [
   { number: "01", title: "Schedule", description: "Book a pickup online or by phone at a time that suits you." },
   { number: "02", title: "We Collect", description: "Our driver picks up your garments from your door." },
-  { number: "03", title: "Expert Care", description: "Your items are cleaned, pressed, and inspected." },
+  { number: "03", title: "Service Processing", description: "Your chosen service gets processed with expert care and attention." },
   { number: "04", title: "Delivered", description: "Fresh garments returned to you, ready to wear." },
 ];
 

@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container">
         <div className="grid md:grid-cols-3 gap-12">
           <div>
-            <h3 className="font-heading text-2xl font-bold text-background mb-4">Garment Care Studio</h3>
+            <h3 className="font-heading text-2xl font-bold text-background mb-4">FabriCo</h3>
             <p className="text-background/60 font-body text-sm leading-relaxed">
               Premium dry cleaning and garment care, serving your community with excellence since 2010.
             </p>
@@ -24,7 +24,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-accent" />
-                hello@Premium dry cleaning and garment care, serving your community with excellence since 2010.
+                hello@fabrico.com
               </li>
             </ul>
           </div>
@@ -42,7 +42,7 @@ const Footer = () => {
         </div>
         <div className="border-t border-background/10 mt-12 pt-8 text-center">
           <p className="text-background/40 font-body text-sm">
-            © 2026 Garment Care Studio. All rights reserved.
+            © 2026 FabriCo. All rights reserved.
           </p>
         </div>
       </div>

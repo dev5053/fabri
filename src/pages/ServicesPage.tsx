@@ -8,10 +8,10 @@ import { Link } from "react-router-dom";
 const ServicesPage = () => {
   return (
     <div className="min-h-screen">
-      <div className="bg-primary">
+      <div className="bg-primary py-6">
         <Navbar />
       </div>
-      <div className="container pt-6">
+      <div className="container pt-4">
         <Button asChild variant="ghost" className="gap-2 text-muted-foreground hover:text-foreground">
           <Link to="/"><ArrowLeft className="w-4 h-4" /> Back to Home</Link>
         </Button>

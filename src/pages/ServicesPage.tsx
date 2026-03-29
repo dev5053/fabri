@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const ServicesPage = () => {
   return (
     <div className="min-h-screen">
-      <div className="bg-primary py-6">
+      <div className="bg-primary [&_nav]:relative [&_nav]:top-auto">
         <Navbar />
       </div>
       <div className="container pt-4">

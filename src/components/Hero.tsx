@@ -23,8 +23,7 @@ const Hero = () => {
             Impeccable Care for Your Finest Garments
           </h1>
           <p className="text-primary-foreground/80 font-body text-lg md:text-xl max-w-lg leading-relaxed">
-            Expert dry cleaning, pressing, and alterations with free pickup & delivery. 
-            Because your clothes deserve the best.
+            We offer dry cleaning, saree polishing, fall & pico stitching, and pre-folding — all at honest prices. Same day delivery available. Just book a pickup and we'll handle the rest.
           </p>
           <div className="flex flex-wrap gap-4 pt-4">
             <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-body font-semibold text-base px-8 py-6 rounded-full">

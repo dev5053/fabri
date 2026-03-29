@@ -30,7 +30,7 @@ const Hero = () => {
             <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-body font-semibold text-base px-8 py-6 rounded-full">
               Schedule Pickup
             </Button>
-            <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-body font-semibold text-base px-8 py-6 rounded-full">
+            <Button asChild size="lg" className="bg-accent text-primary-foreground hover:bg-accent/90 font-body font-semibold text-base px-8 py-6 rounded-full">
               <Link to="/services">Our Services</Link>
             </Button>
           </div>

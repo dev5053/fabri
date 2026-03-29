@@ -10,7 +10,7 @@ const Navbar = () => {
           <BrandName />
         </a>
         <div className="hidden md:flex items-center gap-8 font-body text-sm text-primary-foreground/80">
-          <a href="#services" className="hover:text-accent transition-colors">Services</a>
+          <a href="/services" className="hover:text-accent transition-colors">Services</a>
           <a href="#" className="hover:text-accent transition-colors">Pricing</a>
           <a href="#" className="hover:text-accent transition-colors">About</a>
           <a href="#" className="hover:text-accent transition-colors">Contact</a>

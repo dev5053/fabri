@@ -1,5 +1,6 @@
 import heroImage from "@/assets/hero-dry-cleaning.jpg";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -29,8 +30,8 @@ const Hero = () => {
             <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-body font-semibold text-base px-8 py-6 rounded-full">
               Schedule Pickup
             </Button>
-            <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-body font-semibold text-base px-8 py-6 rounded-full">
-              Our Services
+            <Button asChild size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-body font-semibold text-base px-8 py-6 rounded-full">
+              <Link to="/services">Our Services</Link>
             </Button>
           </div>
         </div>

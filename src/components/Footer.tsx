@@ -1,4 +1,5 @@
 import { MapPin, Phone, Clock, Mail } from "lucide-react";
+import BrandName from "@/components/BrandName";
 
 const Footer = () => {
   return (
@@ -6,7 +7,7 @@ const Footer = () => {
       <div className="container">
         <div className="grid md:grid-cols-3 gap-12">
           <div>
-            <h3 className="font-heading text-2xl font-bold text-background mb-4">FabriCo</h3>
+            <h3 className="text-2xl text-background mb-4"><BrandName /></h3>
             <p className="text-background/60 font-body text-sm leading-relaxed">
               Premium dry cleaning and garment care, serving your community with excellence since 2010.
             </p>

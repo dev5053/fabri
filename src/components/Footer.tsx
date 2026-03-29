@@ -24,7 +24,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-accent" />
-                hello@garmentcarestudio.com
+                hello@Premium dry cleaning and garment care, serving your community with excellence since 2010.
               </li>
             </ul>
           </div>

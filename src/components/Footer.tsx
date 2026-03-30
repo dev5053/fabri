@@ -16,16 +16,12 @@ const Footer = () => {
             <h4 className="font-heading text-lg font-semibold text-background mb-4">Contact</h4>
             <ul className="space-y-3 font-body text-sm text-background/60">
               <li className="flex items-center gap-3">
-                <MapPin className="w-4 h-4 text-accent" />
-                123 Main Street, Suite 100
-              </li>
-              <li className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-accent" />
-                (555) 123-4567
+                +91 9163755805
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-accent" />
-                hello@fabrico.com
+                narsariadewansh51@gmail.com
               </li>
             </ul>
           </div>
@@ -34,9 +30,9 @@ const Footer = () => {
             <ul className="space-y-3 font-body text-sm text-background/60">
               <li className="flex items-center gap-3">
                 <Clock className="w-4 h-4 text-accent" />
-                Mon – Fri: 7 AM – 7 PM
+                Mon – Fri: 10 AM – 9 PM
               </li>
-              <li className="pl-7">Sat: 8 AM – 5 PM</li>
+              <li className="pl-7">Sat: 12 PM – 6 PM</li>
               <li className="pl-7">Sun: Closed</li>
             </ul>
           </div>

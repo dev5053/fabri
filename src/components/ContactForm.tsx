@@ -3,9 +3,11 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
+import { supabase } from "@/integrations/supabase/client";
 
 const ContactForm = () => {
   const { toast } = useToast();
+  const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
@@ -13,8 +15,28 @@ const ContactForm = () => {
     message: "",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setLoading(true);
+
+    const { error } = await supabase.from("pickup_requests").insert({
+      name: formData.name.trim(),
+      phone: formData.phone.trim(),
+      address: formData.address.trim(),
+      message: formData.message.trim() || null,
+    });
+
+    setLoading(false);
+
+    if (error) {
+      toast({
+        title: "Something went wrong",
+        description: "Please try again or call us directly.",
+        variant: "destructive",
+      });
+      return;
+    }
+
     toast({
       title: "Pickup Request Sent!",
       description: "We'll get back to you shortly to confirm your pickup.",
@@ -85,8 +107,12 @@ const ContactForm = () => {
               rows={4}
             />
           </div>
-          <Button type="submit" className="w-full bg-accent text-accent-foreground hover:bg-accent/90 font-body font-semibold text-base py-5">
-            Schedule Pickup
+          <Button
+            type="submit"
+            disabled={loading}
+            className="w-full bg-accent text-accent-foreground hover:bg-accent/90 font-body font-semibold text-base py-5"
+          >
+            {loading ? "Sending..." : "Schedule Pickup"}
           </Button>
         </form>
       </div>
